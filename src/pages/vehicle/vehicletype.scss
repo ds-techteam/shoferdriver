@@ -1,0 +1,45 @@
+.vihicle-content {
+  width: 86%;
+
+  
+
+  .list-form {
+    padding-top: 20%;
+    margin-bottom: 0;
+
+    ion-item {
+      background: none;
+      padding: 0;
+
+      &:first-child {
+        border-top: none;
+      }
+
+      &:after {
+        display: none;
+      }
+
+      ion-label {
+        font-size: 1em;            
+        color: #fec006;
+      }
+
+      input {          
+       width: 90%;
+       padding: 15px;
+       background-color: #02a785;
+       color: #fff;
+       border: 1px solid #fff;
+       border-radius: 10px;        
+       height:20px;
+      }
+      p {
+       float: left;
+       color: #363f45;
+      }
+    }
+  }
+
+}
+
+

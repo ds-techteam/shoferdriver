@@ -1,0 +1,56 @@
+<!-- -->
+<ion-header>
+  <ion-navbar>
+    <ion-title class="text-primary">Upload Driver Licence</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <div margin-top>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-12>
+            <button class="button button-clear" style="background-image:url('../assets/imgs/Takephoto.jpg'); background-size:cover;width:100%;height: 200px;"></button>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-12>
+            <ion-label>
+              <ion-icon name="licenceno" item-start class="text-primary"></ion-icon>
+              Licence No.
+            </ion-label>
+            <ion-input type="text" #licenceno></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-12>
+            <ion-label>
+              <ion-icon name="validvehicletype" item-start class="text-primary"></ion-icon>
+              Valid Vehicle Type
+            </ion-label>
+            <ion-input type="text" #validvehicletype></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-12>
+            <ion-label>
+              <ion-icon name="issuedon" item-start class="text-primary"></ion-icon>
+              Issued On
+            </ion-label>
+            <ion-input type="text" #issuedon></ion-input>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-12>
+            <ion-label>
+              <ion-icon name="expiredate" item-start class="text-primary"></ion-icon>
+              Expire Date
+            </ion-label>
+            <ion-input type="date" #expiredate></ion-input>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>

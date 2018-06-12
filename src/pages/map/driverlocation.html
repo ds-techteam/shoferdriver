@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Driver Status
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="vihicle-content">
+  <ion-list class="list-form" radio-group>  
+
+    <agm-map [latitude]="lat" [longitude]="lng">
+        <agm-direction *ngIf="dir" [origin]="dir.origin" [destination]="dir.destination"></agm-direction>
+    </agm-map>
+
+    </ion-list>  
+  
+</ion-content>

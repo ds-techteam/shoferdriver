@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Verify your mobile</ion-title>
+  </ion-navbar>
+</ion-header>
+<!-- -->
+<ion-content>
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col col-12>
+          <ion-item text-wrap class="label">We are unable to auto verify your mobile number please enter the code tested to xxxxx</ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-12>
+          <ion-item>
+
+            <ion-input type="text" #otp></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-12>
+          <ion-item>
+            <button ion-button block color="primary" tappable (click)="verify()">
+              Submit
+            </button>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

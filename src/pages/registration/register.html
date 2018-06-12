@@ -1,0 +1,73 @@
+<!-- -->
+<ion-header>
+    <ion-navbar class="toolbar-background">
+      <ion-title >Register</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content class="register-content">
+    <div style="margin-top: 40px!important">
+      <ion-grid >
+        <ion-row >
+          <ion-col col-12>
+            <ion-item>
+              <ion-label>
+                <ion-icon name="person" item-start class="text-primary"></ion-icon>
+                First Name
+              </ion-label>
+              <ion-input type="text" #username></ion-input>
+            </ion-item>
+          </ion-col>
+  
+          <ion-col col-12>
+            <ion-item>
+              <ion-label>
+                <ion-icon name="person" item-start class="text-primary"></ion-icon>
+                Last Name
+              </ion-label>
+              <ion-input type="text" #lastname></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col col-12>
+            <ion-item>
+              <ion-label>
+                <ion-icon name="mail" item-start class="text-primary"></ion-icon>
+                Email
+              </ion-label>
+              <ion-input type="email" #email></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col col-12>
+  
+            <ion-item>
+              <ion-label>
+                <ion-icon name="person" item-start class="text-primary"></ion-icon>
+                mobile
+              </ion-label>
+              <ion-input type="text" #mobile></ion-input>
+            </ion-item>
+          </ion-col>
+  
+          <ion-col col-12>
+  
+            <ion-item>
+              <ion-label>
+                <ion-icon name="lock" item-start class="text-primary"></ion-icon>
+                Password
+              </ion-label>
+              <ion-input type="password" #password></ion-input>
+            </ion-item>
+          </ion-col>
+          <ion-col col-12>
+            <ion-item>
+  
+              <button ion-button block color="primary" tappable (click)="next()">
+                Submit
+              </button>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  
+  </ion-content>

@@ -1,0 +1,19 @@
+
+page-vehicleregistration {
+
+  // style for auth pages
+
+.takephoto {
+     width: 60px;
+     height: 60px;
+     margin: 20px auto 0;
+     border-radius: 10%;
+     background-image: url("../assets/imgs/Takephoto.png") no-repeat;
+     background-size: 100%;
+   } 
+   .text-primary {
+    color: color($colors, primary)!important;
+  }
+}
+
+
